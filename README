@@ -1,0 +1,17 @@
+CS 744 Big Data Systems Group 26 Final Project
+
+This repo contains all code we used for our final project, which
+benchmarks Kafka on different configurations. The experiments are ran on
+a cloudlab cluster with 3 brokers and 3 producers.
+
+The ProducerPerformance.java is adapted from the built-in class with the
+same name, so that it runs multiple producer threads. The built-in
+consumer ConsumerPerformance is used without modification.
+
+run.sh is used to run all experiments, and the gather.sh in data
+directory is used to gather data from three producer nodes and parse.py
+processes the gathered data for plotting with plot.py.
+
+end-to-end directory contains adapted classes for measuring end-to-end
+latency, which is achieved by sending a timestamp in the record and the
+consumer calculates the time difference when a record is received.
