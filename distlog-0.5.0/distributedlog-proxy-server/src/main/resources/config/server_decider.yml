@@ -1,0 +1,44 @@
+#/**
+# * Licensed to the Apache Software Foundation (ASF) under one
+# * or more contributor license agreements.  See the NOTICE file
+# * distributed with this work for additional information
+# * regarding copyright ownership.  The ASF licenses this file
+# * to you under the Apache License, Version 2.0 (the
+# * "License"); you may not use this file except in compliance
+# * with the License.  You may obtain a copy of the License at
+# *
+# *     http://www.apache.org/licenses/LICENSE-2.0
+# *
+# * Unless required by applicable law or agreed to in writing, software
+# * distributed under the License is distributed on an "AS IS" BASIS,
+# * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# * See the License for the specific language governing permissions and
+# * limitations under the License.
+# */
+
+region_stop_accept_new_stream:
+  default_availability: 0
+disable_durability_enforcement:
+  default_availability: 0
+disable_write_limit:
+  default_availability: 0
+bkc.repp_disable_durability_enforcement:
+  default_availability: 0
+bkc.disable_ensemble_change:
+  default_availability: 0
+dl.disable_logsegment_rolling:
+  default_availability: 0
+dl.disable_write_limit:
+  default_availability: 0
+bkc.atla.disallow_bookie_placement:
+  default_availability: 0
+bkc.atlb.disallow_bookie_placement:
+  default_availability: 0
+bkc.smf1.disallow_bookie_placement:
+  default_availability: 0
+service_rate_limit_disabled:
+  default_availability: 0
+service_checksum_disabled:
+  default_availability: 0
+service_global_limiter_disabled:
+  default_availability: 0
